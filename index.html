@@ -21,72 +21,109 @@
     <div class="row row-cols-1 row-cols-md-6 g-4">
         <div class="col">
           <div class="card h-100">
-            <img src=".." class="card-img-top" alt="...">
+            <img src="images/messi.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Lionel Messi</h5>
-              <p class="card-text">...</p>
-              <button type="button" class="btn btn-primary btn-sm">Large button</button>
+              <p class="card-text">100 Goals</p>
+              <button type="button" id="messi-button" class="btn btn-primary btn-sm">Select</button>
             </div>
           </div>
         </div>
 
         <div class="col">
             <div class="card h-100">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="images/neymar.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Neymar Jr</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <button type="button" class="btn btn-primary btn-sm">Large button</button>
+                <p class="card-text">150 Goals</p>
+                <button id="neymar-button" type="button" class="btn btn-primary btn-sm">Select</button>
               </div>
             </div>
           </div>
 
           <div class="col">
             <div class="card h-100">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="images/mbappe.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Kylian Mbappé</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <button type="button" class="btn btn-primary btn-sm">Large button</button>
+                <p class="card-text">200 Goals</p>
+                <button type="button" class="btn btn-primary btn-sm">Select</button>
               </div>
             </div>
           </div>
 
         <div class="col">
           <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="images/shada mia 1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Vítor Machado</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <button type="button" class="btn btn-primary btn-sm">Large button</button>
+              <p class="card-text">20 Goals</p>
+              <button type="button" class="btn btn-primary btn-sm">Select</button>
             </div>
           </div>
         </div>
 
         <div class="col">
           <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="images/ramos.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Sergio Ramos</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <button type="button" class="btn btn-primary btn-sm">Large button</button>
+              <p class="card-text">90 Golas.</p>
+              <button type="button" class="btn btn-primary btn-sm">Select</button>
             </div>
           </div>
         </div>
 
         <div class="col">
           <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="images/kallu 1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Renato Sanches</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <button type="button" class="btn btn-primary btn-sm">Large button</button>
+              <p class="card-text">56 Goals</p>
+              <button type="button" class="btn btn-primary btn-sm">Select</button>
             </div>
           </div>
         </div>
 
       </div>
 </section>
+
+<section class="selected-budget-section d-flex justify-content-center">
+
+    <div>
+        <h4  class="text-white mt-4 ms-5">Selected 5</h4>
+       <ul id="selected-five" class="text-white ms-5">
+            <li class="mb-2">1. <span id='messi'>Lionel Messi</span></li>
+            <li class="mb-2">2. <span id="mbappe">Kylian Mbappé</span></li>
+            <li class="mb-2">3. <span id="neymar">Neymar Jr</span></li>
+            <li class="mb-2">4. <span id="renato">Renato Sanches</span></li>
+            <li class="mb-2">5. <span id="navas">Keylor Navas</span></li>
+        </ul> 
+    </div>
+
+    <div class="mt-4 ms-5">
+        <h4 class="text-white">Budget</h4>
+       <h5 class="text-white" >Per Player</h3class> <input type="text">
+        <button type="button" class="btn btn-primary btn-sm">Calculate</button>
+
+    <h4 class="text-white" >Player Expenses</h4> <p class="text-danger">$ <span class="text-danger">5000</span></p>
+
+    <h5 class="text-white" >Manager</h3class> <input type="text">
+    <h5 class="text-white" >Coach</h3class> <input type="text">
+        <button type="button" class="btn btn-primary btn-sm">Calculate Total</button>
+
+        <p class="text-danger">Total$ <span>11000</span></p>
+
+    </div>
+
+
+</section>
+
+<footer class="text-center mt-5">
+    <small class="text-white  "> ©2020.  All rights reserved. </small>
+  </footer>
+
+
 
 
 
