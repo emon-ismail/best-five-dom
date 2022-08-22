@@ -16,16 +16,7 @@ ul.innerHTML=`
 slectedFive.appendChild(ul);
 
 }
-// const tr=document.createElement("tr");
-// tr.innerHTML=`
-// <th></th>
-// <td>name</td>`;
-// slectedFive.appendChild(tr);
 
-
-// function DisableNextButton(btnId) {
-//      document.getElementById(btnId).disabled = 'true';
-//  }
 
 }
 
